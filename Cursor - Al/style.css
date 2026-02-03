@@ -1,0 +1,72 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    /* background-color: #14120b; */
+    color: #EDECEC;
+    
+}
+@font-face {
+    font-family: 'CursorGothic';
+    src: url(https://cursor.com/marketing-static/_next/static/media/CursorGothic_Regular-s.p.a361088d.woff2) format('woff2');
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #14120b;
+    padding: 12px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.logo-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+
+.nav-links{
+    display: grid;
+  flex-direction: row;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 4px;
+}
+.nav-link{
+    font-family:'CursorGothic' ;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.cta-buttons{
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+.cta-1{
+    align-self: center;
+    background: transparent;
+    color: #EDECEC;
+    border: 1px solid gray;
+    border-radius: 18px;
+    font-weight: 500;
+    font-size: 20px;
+    padding:4px 8px;
+    
+ 
+    
+}
+.cta-2{
+    background: #EDECEC;
+    color: #14120b;
+    border-radius: 32px;
+    padding-left:12px;
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 12px;
+}
