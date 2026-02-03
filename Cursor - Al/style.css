@@ -3,8 +3,9 @@
     box-sizing: border-box;
     margin: 0;
     padding:0;
-    /* background-color: #14120b; */
+    background-color: #14120b;
     color: #EDECEC;
+    font-family:'CursorGothic' ;
     
 }
 @font-face {
@@ -17,8 +18,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: #14120b;
-    padding: 12px;
-    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
     
 }
 
@@ -26,47 +26,65 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1px;
 }
 
 .nav-links{
-    display: grid;
-  flex-direction: row;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 32px;
 }
 .nav-link{
     font-family:'CursorGothic' ;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
 }
 
 .cta-buttons{
-    display: grid;
-    flex-direction: row;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    
 }
 .cta-1{
-    align-self: center;
     background: transparent;
     color: #EDECEC;
-    border: 1px solid gray;
-    border-radius: 18px;
+    cursor: pointer;
+    border: 1px solid #edecec33;
+    border-radius: 20px;
     font-weight: 500;
-    font-size: 20px;
-    padding:4px 8px;
+    font-size: 14px;
+    padding:4px 10.5px 3.8px;
     
- 
     
 }
 .cta-2{
     background: #EDECEC;
     color: #14120b;
-    border-radius: 32px;
-    padding-left:12px;
-    font-size: 18px;
+    border: none;
+    border-radius: 99px;
+    font-size: 14px;
     font-weight: 500;
-    padding-right: 12px;
+    padding:5px 12px;
+}
+.main-section{
+    width: 100%;
+    height: 700vh;
+}
+.hero-section{
+    width: 100%;
+    height: 100%;
+    padding: 112px 20px 67.2px;
+}
+.section-1{
+    margin:0px 0px 56px
+}
+.section-1 h1{
+    font: size 8px;
+    font-weight: 200;
+    margin:0px 0px 22.4px;
+    font-style:normal;
 }
