@@ -61,7 +61,7 @@ payment [icon:payment, color:green]{
   amount decimal(5,2)
   payment_date date
 
-  payment_type string CHEC
+  payment_type string CHECK('upi','cash','credit/debit')
 }
 
 patient.patient_id  < appointment.appointment_id
